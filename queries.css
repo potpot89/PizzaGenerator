@@ -1,0 +1,15 @@
+@media only screen and (max-width: 576px) {
+  main {
+    font-size: larger;
+    background-color: white;
+    width: 300px;
+  }
+
+  .btn-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 0.5rem;
+    padding: 1rem;
+  }
+}
