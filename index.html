@@ -13,14 +13,20 @@
       <h1>Pizza Generator</h1>
 
       <p>
-        "Vorrei una pizza con fontina, asparagi e pancetta, con aggiunta di ***
-        e impasto integrale."
+        "Vorrei una pizza con
+        <span id="ingrediente">***</span>, con aggiunta di
+        <span id="aggiunta">***</span>
+        e impasto <span id="impasto">***</span>."
       </p>
       <div class="btn-container">
-        <button>ingredienti</button>
-        <button>aggiunta</button>
-        <button>impasto</button>
-        <button>pizza completa</button>
+        <button id="btn-ingredienti" onclick="generaIngredienti()">
+          ingredienti
+        </button>
+        <button id="btn-aggiunta" onclick="generaAggiunta()">aggiunta</button>
+        <button id="btn-impasto" onclick="generaImpasto()">impasto</button>
+        <button id="btn-pizzaCompleta" onclick="generaTutto()">
+          pizza completa
+        </button>
       </div>
     </main>
   </body>
